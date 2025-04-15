@@ -1,0 +1,84 @@
+/* Reset mặc định trình duyệt */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #f0f2f5, #d9e4f5);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin: 0;
+}
+
+form {
+    background-color: white;
+    padding: 40px 50px; /* Thêm padding cho form to hơn */
+    border-radius: 10px;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1); /* Thêm shadow đậm hơn */
+    width: 100%;
+    max-width: 670px; /* Tăng chiều rộng tối đa */
+    min-height: 400px; /* Đảm bảo form dài ra */
+    display: flex;
+    flex-direction: column; /* Chỉnh form theo chiều dọc */
+    justify-content: center; /* Căn chỉnh các item trong form */
+    align-items: center; /* Căn giữa các phần tử trong form */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px; /* Giãn cách giữa tiêu đề và form */
+    color: #333;
+    font-size: 24px; /* Tăng kích thước chữ */
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 14px 22px; /* Tăng padding để button lớn hơn */
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    margin-top: 15px; /* Tăng khoảng cách với các input */
+}
+
+input[type="submit"]:hover {
+    background-color: #357ab8;
+}
+
+a {
+    color: #4a90e2;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    text-align: center;
+    margin-top: 20px; /* Tăng khoảng cách với các input */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    text-align: center;
+    margin-top: 15px;
+    color: red;
+}

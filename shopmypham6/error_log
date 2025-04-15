@@ -1,0 +1,169 @@
+[14-Apr-2025 09:59:33 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class 'CType' not found in /home/gyrauzrm/public_html/shopmypham5/index.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/gyrauzrm/public_html/shopmypham5/index.php on line 59
+[14-Apr-2025 09:59:35 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class 'CType' not found in /home/gyrauzrm/public_html/shopmypham5/index.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/gyrauzrm/public_html/shopmypham5/index.php on line 59
+[14-Apr-2025 09:59:37 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class 'CType' not found in /home/gyrauzrm/public_html/shopmypham5/index.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/gyrauzrm/public_html/shopmypham5/index.php on line 59
+[14-Apr-2025 10:00:00 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class 'CType' not found in /home/gyrauzrm/public_html/shopmypham5/index.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/gyrauzrm/public_html/shopmypham5/index.php on line 59
+[14-Apr-2025 10:00:01 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class 'CType' not found in /home/gyrauzrm/public_html/shopmypham5/index.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/gyrauzrm/public_html/shopmypham5/index.php on line 59
+[14-Apr-2025 10:00:01 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class 'CType' not found in /home/gyrauzrm/public_html/shopmypham5/index.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/gyrauzrm/public_html/shopmypham5/index.php on line 59
+[14-Apr-2025 10:00:01 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class 'CType' not found in /home/gyrauzrm/public_html/shopmypham5/index.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/gyrauzrm/public_html/shopmypham5/index.php on line 59
+[14-Apr-2025 10:00:02 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class 'CType' not found in /home/gyrauzrm/public_html/shopmypham5/index.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/gyrauzrm/public_html/shopmypham5/index.php on line 59
+[14-Apr-2025 10:02:05 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class 'CType' not found in /home/gyrauzrm/public_html/shopmypham5/index.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/gyrauzrm/public_html/shopmypham5/index.php on line 59
+[14-Apr-2025 10:02:06 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class 'CType' not found in /home/gyrauzrm/public_html/shopmypham5/index.php:59
+Stack trace:
+#0 {main}
+  thrown in /home/gyrauzrm/public_html/shopmypham5/index.php on line 59
+[14-Apr-2025 10:02:59 Asia/Ho_Chi_Minh] PHP Warning:  include_once(controller/CType.php): failed to open stream: No such file or directory in /home/gyrauzrm/public_html/shopmypham5/index.php on line 60
+[14-Apr-2025 10:02:59 Asia/Ho_Chi_Minh] PHP Warning:  include_once(): Failed opening 'controller/CType.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/gyrauzrm/public_html/shopmypham5/index.php on line 60
+[14-Apr-2025 10:02:59 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Class 'CType' not found in /home/gyrauzrm/public_html/shopmypham5/index.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/gyrauzrm/public_html/shopmypham5/index.php on line 61
+[14-Apr-2025 10:04:16 Asia/Ho_Chi_Minh] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Connect has a deprecated constructor in /home/gyrauzrm/public_html/shopmypham5/model/connect.php on line 3
+[14-Apr-2025 10:04:27 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: user in /home/gyrauzrm/public_html/shopmypham5/view/SanPham/index.php on line 27
+[14-Apr-2025 10:04:27 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/gyrauzrm/public_html/shopmypham5/view/SanPham/index.php on line 27
+[14-Apr-2025 10:04:52 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/gyrauzrm/public_html/shopmypham5/edit.php:52
+Stack trace:
+#0 /home/gyrauzrm/public_html/shopmypham5/quanlysp.php(52): include_once()
+#1 {main}
+  thrown in /home/gyrauzrm/public_html/shopmypham5/edit.php on line 52
+[14-Apr-2025 10:07:07 Asia/Ho_Chi_Minh] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Connect has a deprecated constructor in /home/gyrauzrm/public_html/shopmypham5/model/connect.php on line 3
+[14-Apr-2025 10:11:22 Asia/Ho_Chi_Minh] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Connect has a deprecated constructor in /home/gyrauzrm/public_html/shopmypham5/model/connect.php on line 3
+[14-Apr-2025 10:11:29 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: user in /home/gyrauzrm/public_html/shopmypham5/view/SanPham/index.php on line 27
+[14-Apr-2025 10:11:29 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/gyrauzrm/public_html/shopmypham5/view/SanPham/index.php on line 27
+[14-Apr-2025 10:17:30 Asia/Ho_Chi_Minh] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Connect has a deprecated constructor in /home/gyrauzrm/public_html/shopmypham5/model/connect.php on line 3
+[14-Apr-2025 10:17:55 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: user in /home/gyrauzrm/public_html/shopmypham5/view/SanPham/index.php on line 27
+[14-Apr-2025 10:17:55 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/gyrauzrm/public_html/shopmypham5/view/SanPham/index.php on line 27
+[14-Apr-2025 10:18:25 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/gyrauzrm/public_html/shopmypham5/edit.php:52
+Stack trace:
+#0 /home/gyrauzrm/public_html/shopmypham5/quanlysp.php(52): include_once()
+#1 {main}
+  thrown in /home/gyrauzrm/public_html/shopmypham5/edit.php on line 52
+[14-Apr-2025 10:20:29 Asia/Ho_Chi_Minh] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Connect has a deprecated constructor in /home/gyrauzrm/public_html/shopmypham5/model/connect.php on line 3
+[14-Apr-2025 10:21:27 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/gyrauzrm/public_html/shopmypham5/edit.php:52
+Stack trace:
+#0 /home/gyrauzrm/public_html/shopmypham5/quanlysp.php(52): include_once()
+#1 {main}
+  thrown in /home/gyrauzrm/public_html/shopmypham5/edit.php on line 52
+[14-Apr-2025 10:21:56 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/gyrauzrm/public_html/shopmypham5/edit.php:52
+Stack trace:
+#0 /home/gyrauzrm/public_html/shopmypham5/quanlysp.php(52): include_once()
+#1 {main}
+  thrown in /home/gyrauzrm/public_html/shopmypham5/edit.php on line 52
+[14-Apr-2025 11:53:38 Asia/Ho_Chi_Minh] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Connect has a deprecated constructor in /home/gyrauzrm/public_html/shopmypham5/model/connect.php on line 3
+[14-Apr-2025 11:54:19 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/gyrauzrm/public_html/shopmypham5/edit.php:52
+Stack trace:
+#0 /home/gyrauzrm/public_html/shopmypham5/quanlysp.php(52): include_once()
+#1 {main}
+  thrown in /home/gyrauzrm/public_html/shopmypham5/edit.php on line 52
+[14-Apr-2025 12:01:21 Asia/Ho_Chi_Minh] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Connect has a deprecated constructor in /home/gyrauzrm/public_html/shopmypham5/model/connect.php on line 3
+[14-Apr-2025 12:09:39 Asia/Ho_Chi_Minh] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Connect has a deprecated constructor in /home/gyrauzrm/public_html/shopmypham5/model/connect.php on line 3
+[14-Apr-2025 12:16:04 Asia/Ho_Chi_Minh] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Connect has a deprecated constructor in /home/gyrauzrm/public_html/shopmypham5/model/connect.php on line 3
+[14-Apr-2025 12:16:17 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/gyrauzrm/public_html/shopmypham5/edit.php:52
+Stack trace:
+#0 /home/gyrauzrm/public_html/shopmypham5/quanlysp.php(52): include_once()
+#1 {main}
+  thrown in /home/gyrauzrm/public_html/shopmypham5/edit.php on line 52
+[14-Apr-2025 12:16:55 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/gyrauzrm/public_html/shopmypham5/edit.php:52
+Stack trace:
+#0 /home/gyrauzrm/public_html/shopmypham5/quanlysp.php(52): include_once()
+#1 {main}
+  thrown in /home/gyrauzrm/public_html/shopmypham5/edit.php on line 52
+[14-Apr-2025 12:32:35 Asia/Ho_Chi_Minh] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Connect has a deprecated constructor in /home/gyrauzrm/public_html/shopmypham5/model/connect.php on line 3
+[14-Apr-2025 12:33:30 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: user in /home/gyrauzrm/public_html/shopmypham5/view/SanPham/index.php on line 27
+[14-Apr-2025 12:33:30 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/gyrauzrm/public_html/shopmypham5/view/SanPham/index.php on line 27
+[14-Apr-2025 12:33:45 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: user in /home/gyrauzrm/public_html/shopmypham5/view/SanPham/index.php on line 27
+[14-Apr-2025 12:33:45 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/gyrauzrm/public_html/shopmypham5/view/SanPham/index.php on line 27
+[14-Apr-2025 12:33:48 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: user in /home/gyrauzrm/public_html/shopmypham5/view/SanPham/index.php on line 27
+[14-Apr-2025 12:33:48 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/gyrauzrm/public_html/shopmypham5/view/SanPham/index.php on line 27
+[14-Apr-2025 12:33:51 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: user in /home/gyrauzrm/public_html/shopmypham5/view/SanPham/index.php on line 27
+[14-Apr-2025 12:33:51 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/gyrauzrm/public_html/shopmypham5/view/SanPham/index.php on line 27
+[14-Apr-2025 12:33:53 Asia/Ho_Chi_Minh] PHP Notice:  Undefined variable: user in /home/gyrauzrm/public_html/shopmypham5/view/SanPham/index.php on line 27
+[14-Apr-2025 12:33:53 Asia/Ho_Chi_Minh] PHP Notice:  Trying to access array offset on value of type null in /home/gyrauzrm/public_html/shopmypham5/view/SanPham/index.php on line 27
+[14-Apr-2025 12:51:33 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/gyrauzrm/public_html/shopmypham5/edit.php:52
+Stack trace:
+#0 /home/gyrauzrm/public_html/shopmypham5/quanlysp.php(52): include_once()
+#1 {main}
+  thrown in /home/gyrauzrm/public_html/shopmypham5/edit.php on line 52
+[14-Apr-2025 12:51:43 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/gyrauzrm/public_html/shopmypham5/edit.php:52
+Stack trace:
+#0 /home/gyrauzrm/public_html/shopmypham5/quanlysp.php(52): include_once()
+#1 {main}
+  thrown in /home/gyrauzrm/public_html/shopmypham5/edit.php on line 52
+[14-Apr-2025 12:52:52 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to a member function data_seek() on null in /home/gyrauzrm/public_html/shopmypham5/edit.php:77
+Stack trace:
+#0 /home/gyrauzrm/public_html/shopmypham5/quanlysp.php(52): include_once()
+#1 {main}
+  thrown in /home/gyrauzrm/public_html/shopmypham5/edit.php on line 77
+[14-Apr-2025 12:55:46 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to a member function data_seek() on null in /home/gyrauzrm/public_html/shopmypham5/edit.php:77
+Stack trace:
+#0 /home/gyrauzrm/public_html/shopmypham5/quanlysp.php(52): include_once()
+#1 {main}
+  thrown in /home/gyrauzrm/public_html/shopmypham5/edit.php on line 77
+[14-Apr-2025 13:00:36 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to a member function data_seek() on null in /home/gyrauzrm/public_html/shopmypham5/edit.php:77
+Stack trace:
+#0 /home/gyrauzrm/public_html/shopmypham5/quanlysp.php(52): include_once()
+#1 {main}
+  thrown in /home/gyrauzrm/public_html/shopmypham5/edit.php on line 77
+[14-Apr-2025 13:00:41 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to a member function data_seek() on null in /home/gyrauzrm/public_html/shopmypham5/edit.php:77
+Stack trace:
+#0 /home/gyrauzrm/public_html/shopmypham5/quanlysp.php(52): include_once()
+#1 {main}
+  thrown in /home/gyrauzrm/public_html/shopmypham5/edit.php on line 77
+[14-Apr-2025 13:01:04 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to a member function data_seek() on null in /home/gyrauzrm/public_html/shopmypham5/edit.php:77
+Stack trace:
+#0 /home/gyrauzrm/public_html/shopmypham5/quanlysp.php(52): include_once()
+#1 {main}
+  thrown in /home/gyrauzrm/public_html/shopmypham5/edit.php on line 77
+[14-Apr-2025 13:01:08 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to a member function data_seek() on null in /home/gyrauzrm/public_html/shopmypham5/edit.php:77
+Stack trace:
+#0 /home/gyrauzrm/public_html/shopmypham5/quanlysp.php(52): include_once()
+#1 {main}
+  thrown in /home/gyrauzrm/public_html/shopmypham5/edit.php on line 77
+[14-Apr-2025 13:23:32 Asia/Ho_Chi_Minh] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Connect has a deprecated constructor in /home/gyrauzrm/public_html/shopmypham5/model/connect.php on line 3
+[14-Apr-2025 13:25:18 Asia/Ho_Chi_Minh] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Connect has a deprecated constructor in /home/gyrauzrm/public_html/shopmypham5/model/connect.php on line 3
+[14-Apr-2025 13:33:09 Asia/Ho_Chi_Minh] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Connect has a deprecated constructor in /home/gyrauzrm/public_html/shopmypham5/model/connect.php on line 3
+[14-Apr-2025 13:38:23 Asia/Ho_Chi_Minh] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Connect has a deprecated constructor in /home/gyrauzrm/public_html/shopmypham5/model/connect.php on line 3
+[14-Apr-2025 13:47:41 Asia/Ho_Chi_Minh] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Connect has a deprecated constructor in /home/gyrauzrm/public_html/shopmypham5/model/connect.php on line 3
+[14-Apr-2025 13:53:57 Asia/Ho_Chi_Minh] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Connect has a deprecated constructor in /home/gyrauzrm/public_html/shopmypham5/model/connect.php on line 3
+[14-Apr-2025 13:58:53 Asia/Ho_Chi_Minh] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Connect has a deprecated constructor in /home/gyrauzrm/public_html/shopmypham5/model/connect.php on line 3
+[14-Apr-2025 14:01:51 Asia/Ho_Chi_Minh] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Connect has a deprecated constructor in /home/gyrauzrm/public_html/shopmypham5/model/connect.php on line 3
+[14-Apr-2025 14:06:33 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to a member function data_seek() on null in /home/gyrauzrm/public_html/shopmypham5/edit.php:77
+Stack trace:
+#0 /home/gyrauzrm/public_html/shopmypham5/quanlysp.php(52): include_once()
+#1 {main}
+  thrown in /home/gyrauzrm/public_html/shopmypham5/edit.php on line 77
+[14-Apr-2025 14:06:41 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Call to a member function data_seek() on null in /home/gyrauzrm/public_html/shopmypham5/edit.php:77
+Stack trace:
+#0 /home/gyrauzrm/public_html/shopmypham5/quanlysp.php(52): include_once()
+#1 {main}
+  thrown in /home/gyrauzrm/public_html/shopmypham5/edit.php on line 77
+[14-Apr-2025 14:07:50 Asia/Ho_Chi_Minh] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Connect has a deprecated constructor in /home/gyrauzrm/public_html/shopmypham5/model/connect.php on line 3
+[14-Apr-2025 14:40:32 Asia/Ho_Chi_Minh] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Connect has a deprecated constructor in /home/gyrauzrm/public_html/shopmypham5/model/connect.php on line 3
+[14-Apr-2025 14:44:34 Asia/Ho_Chi_Minh] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Connect has a deprecated constructor in /home/gyrauzrm/public_html/shopmypham5/model/connect.php on line 3
+[14-Apr-2025 14:46:43 Asia/Ho_Chi_Minh] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; Connect has a deprecated constructor in /home/gyrauzrm/public_html/shopmypham5/model/connect.php on line 3
