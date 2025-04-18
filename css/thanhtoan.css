@@ -1,0 +1,158 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+
+/* Container chính */
+
+.payment-container {
+    width: 70%;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    overflow: hidden;
+}
+
+h2 {
+    color: #4CAF50;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #4CAF50;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+
+/* Phần thông tin đơn hàng */
+
+.order-summary {
+    margin-bottom: 30px;
+}
+
+.order-summary table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.order-summary th,
+.order-summary td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.order-summary th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
+
+.order-summary tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+.order-summary tr:hover {
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+}
+
+.order-summary td {
+    font-size: 16px;
+}
+
+.order-summary .total {
+    font-weight: bold;
+    color: #333;
+    font-size: 18px;
+}
+
+
+/* Phần thông tin giao hàng */
+
+.payment-info {
+    margin-top: 40px;
+}
+
+.payment-info form {
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-info label {
+    font-weight: 500;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #555;
+}
+
+.payment-info input,
+.payment-info select {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #fafafa;
+    transition: border-color 0.3s ease;
+}
+
+.payment-info input:focus,
+.payment-info select:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.payment-info button {
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.payment-info button:hover {
+    background-color: #45a049;
+}
+
+.payment-info .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+/* Phần Footer */
+
+.payment-container footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+}
+
+
+/* Responsive cho điện thoại */
+
+@media (max-width: 768px) {
+    .payment-container {
+        width: 90%;
+    }
+    .order-summary table,
+    .payment-info form {
+        width: 100%;
+    }
+}

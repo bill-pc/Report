@@ -1,0 +1,225 @@
+/* Reset và cấu trúc chung */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fffefc;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+/* Container tổng */
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/* Header – Logo và Tiêu đề ngang */
+
+header {
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    padding: 0 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    background-image: url("../img/banner.jpg");
+}
+
+header img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+header h1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 28px;
+    color: #2b9c4d;
+    line-height: 1.2;
+}
+
+
+/* Phần Tổng Quan (Overview) */
+
+.overview {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: #fdf9f8;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.overview-content {
+    display: flex;
+    align-items: stretch;
+    /* Đảm bảo hai bên bằng chiều cao */
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.overview-text {
+    flex: 1 1 60%;
+}
+
+.overview-text h2 {
+    color: #af3c88;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.overview-text p {
+    margin-bottom: 12px;
+    text-align: justify;
+    font-size: 16px;
+    color: #444;
+}
+
+.overview-img {
+    flex: 1 1 35%;
+}
+
+.overview-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Responsive cho mobile */
+
+@media (max-width: 768px) {
+    .overview-content {
+        flex-direction: column;
+    }
+    .overview-img img {
+        height: auto;
+        max-height: unset;
+    }
+    .post {
+        flex: 1 1 100%;
+    }
+}
+
+
+/* Tiêu đề */
+
+h1,
+h2,
+h3 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #044115;
+    margin-top: 40px;
+}
+
+h3 {
+    color: #af3c88;
+}
+
+
+/* Ảnh chính */
+
+.main-img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Danh sách không dấu đầu dòng */
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+
+/* Danh sách bài viết */
+
+.blog-posts {
+    margin-top: 50px;
+}
+
+.post-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.post {
+    flex: 1 1 45%;
+    background: #f8f8f8;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.post:hover {
+    transform: translateY(-4px);
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.post h3 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    margin-top: 60px;
+    padding: 20px;
+    background: #f1f1f1;
+    font-size: 14px;
+    color: #777;
+}
+
+
+/* Back to home link */
+
+.back-link {
+    text-decoration: none;
+    color: #af3c88;
+    font-weight: bold;
+}
+
+
+/* Logo phụ nếu dùng */
+
+.logo {
+    width: 120px;
+    display: block;
+    margin: 0 auto 10px;
+}
