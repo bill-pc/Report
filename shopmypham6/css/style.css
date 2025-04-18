@@ -1,0 +1,216 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* width: 80%; */
+    margin: auto;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 140px;
+    /* display: flex; */
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    background: #f8fff5;
+    background-image: url('https://i.postimg.cc/FHhSWXH3/bann.jpg');
+    background-size: cover;
+}
+
+header img {
+    width: 170px;
+    height: 120px;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+
+.menu {
+    width: 15%;
+    float: left;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    /* display: flex; */
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    /* margin-top: 50px; */
+    background-color:   rgb(252, 246, 249);
+}
+.menu li {
+    padding: 15px 0;
+    transition: background 0.3s;
+}
+
+.menu li:hover {
+    /*background-color:rgb(136, 55, 95);*/
+        cursor: pointer;
+}
+
+.container-body {
+    display: flex;
+    background: #f8fff5;
+}
+
+.sec {
+    float: right;
+    width: 85%;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    background-color:rgb(252, 246, 249);
+}
+
+.logo {
+    color: rgb(187, 99, 99);
+}
+
+footer {
+    height: auto;
+    border: 1px solid;
+    border-top: none;
+    clear: both;
+    text-align: center;
+}
+
+.site-footer {
+    background-color: #2f3e46;
+    color: #ffffff;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    clear: both;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-box {
+    max-width: 220px;
+}
+
+.footer-box h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.footer-box p,
+.footer-box a {
+    font-size: 14px;
+    color: #cccccc;
+    margin: 6px 0;
+    text-decoration: none;
+}
+
+.footer-box a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 13px;
+    color: #cccccc;
+}
+
+.footer-bottom hr {
+    border: none;
+    border-top: 1px solid #444;
+    margin-bottom: 10px;
+}
+
+.button {
+    height: 15px;
+    width: 15px;
+}
+
+.search {
+    padding: 5px;
+}
+
+nav {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.tb tr td {
+    /* border: solid; */
+    width: 180px;
+    height: 100px;
+}
+
+.tb th {
+    /* border: 2px solid; */
+    width: 180px;
+    height: 20px;
+}
+
+#tbl1 {
+    align-items: center;
+}
+
+
+/*-----------------------addsp---------------------  */
+
+.my input {
+    width: 200px;
+}
+
+.h3_category {
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.nav-header {
+    padding: 20px 0 20px 0;
+    background: #f8fff5;
+}
+
+.box-header {
+    display: flex;
+}
+
+.box-header>h1 {
+    font-family: 'Noto Sans', sans-serif;
+    /* Đặt font cho h1 */
+    color: black;
+    line-height: 150px;
+    margin-left: 500px;
+}
