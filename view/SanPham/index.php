@@ -31,7 +31,7 @@ if (isset($_GET["id"])) {
         } else {
             // Nếu người dùng chưa đăng nhập
             echo "<p style='color:red; font-weight:bold;'>⚠ Bạn cần đăng nhập để thêm sản phẩm vào giỏ hàng.</p>";
-            echo "<a href='view/dangnhap.php'>Đăng nhập ngay</a>";
+            echo "<a href='view/dangnhap.php'><strong><u>Đăng Nhập</u></strong></a>";
             exit();
         }
     }
