@@ -28,16 +28,16 @@
                 if($user["role"] == 'admin') {
                     header("Location: quanlycty.php");
                 } else {
-                    echo "<a href='index.php'>Trang chủ |</a>";
-                    echo "<a href='view/gioithieu.php'>Giới thiệu |</a>";
-                    echo "<a href='giohang.php'>Giỏ hàng |</a>";
+                    echo "<a href='index.php'>Trang chủ </a>";
+                    echo "<a href='view/gioithieu.php'>Giới thiệu</a>";
+                    echo "<a href='giohang.php'>Giỏ hàng</a>";
                     echo "<a href='view/dangxuat.php'>Đăng xuất</a>";
                 }
             } else {
-                echo "<a href='index.php'>Trang chủ |</a>";
-                echo "<a href='view/gioithieu.php'>Giới thiệu |</a>";
-                echo "<a href='view/dangky.php'>Đăng ký |</a>";
-                echo "<a href='view/dangnhap.php'>Đăng nhập |</a>";
+                echo "<a href='index.php'>Trang chủ</a>";
+                echo "<a href='view/gioithieu.php'>Giới thiệu</a>";
+                echo "<a href='view/dangky.php'>Đăng ký</a>";
+                echo "<a href='view/dangnhap.php'>Đăng nhập</a>";
             }
         ?>
     </div>
